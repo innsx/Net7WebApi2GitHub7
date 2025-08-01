@@ -6,6 +6,10 @@ namespace Net7WebApi2GitHub7a.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+
+        /// <summary>
+        /// Comment in VS2022
+        /// </summary>
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
